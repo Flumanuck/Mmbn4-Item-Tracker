@@ -11,8 +11,11 @@ function generateHashedPassword (plainTextPassword, saltHex = null) {
   const hashedPassword = hash.update(saltAndPassword).digest('hex');
   return hashedPassword;
 }
+function createSecretKey () {
+  console.log(crypto.randomBytes(64).toString('hex'));
+}
 
 module.exports = {
   generateSalt,
-  generateHashedPassword
+  generateHashedPassword,
 }
