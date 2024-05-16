@@ -1,4 +1,4 @@
-# Brush Buddy
+# MMBN4 Mystery Data Tracker
 
 ## Table of Contents
 * [Description](#description)
