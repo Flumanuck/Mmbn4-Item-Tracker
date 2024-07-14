@@ -1,4 +1,4 @@
-# Brush Buddy
+# MMBN4 Item Tracker
 
 ## Table of Contents
 * [Description](#description)
