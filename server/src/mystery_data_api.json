@@ -1,717 +1,716 @@
 {
-    "Normal_Mode": {
-      "ACDC_Area_1": {
-        "BMD": ["BugStop", "MiniEnrg"],
-        "PMD": null
-      },
-      "ACDC_Area_2": {
-        "BMD": null,
-        "PMD": ["Geyser L"]
-      },
-      "ACDC_Area_3": {
-        "BMD": ["Jealousy J", "CopyDmg *"],
-        "PMD": null
-      },
-      "Town_Area_1": {
-        "BMD": ["SandRing *"],
-        "PMD": ["HPMemory"]
-      },
-      "Town_Area_2": {
-        "BMD": ["Invis *"],
-        "PMD": ["Blinder *"]
-      },
-      "Town_Area_3": {
-        "BMD": ["Recov30 R"],
-        "PMD": null
-      },
-      "Town_Area_4": {
-        "BMD": null,
-        "PMD": null
-      },
-      "Park_Area_1": {
-        "BMD": ["AntiSwrd N", "RegUp1"],
-        "PMD": null
-      },
-      "Park_Area_2": {
-        "BMD": ["HPMemory"],
-        "PMD": ["VarSwrd V"]
-      },
-      "Park_Area_3": {
-        "BMD": ["MegFldr1", "BugFrag"],
-        "PMD": ["ColorPt *"]
-      },
-      "Netopia_Area": {
-        "BMD": ["SprArmor", "HPMemory"],
-        "PMD": null
-      },
-      "Yumland_Area": {
-        "BMD": ["RegUp2"],
-        "PMD": ["Lance G"]
-      },
-      "Netfrica_Area": {
-        "BMD": ["Barr100 W", "Jungle"],
-        "PMD": null
-      },
-      "Sharo_Area": {
-        "BMD": ["HPMemory", "HP+200"],
-        "PMD": ["BlkBomb Z"]
-      },
-      "Undernet_Area_1": {
-        "BMD": ["RegUp1"],
-        "PMD": ["Snake M"]
-      },
-      "Undernet_Area_2": {
-        "BMD": ["ExpMem", "SpeedMAX"],
-        "PMD": null
-      },
-      "Undernet_Area_3": {
-        "BMD": ["HPMemory", "Recov120 Q"],
-        "PMD": null
-      },
-      "Undernet_Area_4": {
-        "BMD": ["HPMemory", "Custom1"],
-        "PMD": ["Guardian O"]
-      },
-      "Undernet_Area_5": {
-        "BMD": null,
-        "PMD": null
-      },
-      "Undernet_Area_6": {
-        "BMD": ["Hole *", "Attack+1"],
-        "PMD": null
-      },
-      "Black_Earth_Area_1": {
-        "BMD": null,
-        "PMD": null
-      },
-      "Black_Earth_Area_2": {
-        "BMD": null,
-        "PMD": null
-      },
-      "ELTowComp1": {
-        "BMD": ["Spearder M", "RegUp2", "700z"],
-        "PMD": null
-      },
-      "ELTowComp2": {
-        "BMD": ["LongSwrd S", "HPMemory", "BugFrag(1)"],
-        "PMD": null
-      },
-      "Toy_Robo_1": {
-        "BMD": ["RegUp1", "HP+50", "1400z"],
-        "PMD": null
-      },
-      "Toy_Robo_2": {
-        "BMD": ["RockCube *", "Vulcan2 B", "HPMemory"],
-        "PMD": null
-      },
-      "Toy_Robo_3": {
-        "BMD": ["Charge+1", "RegUp2"],
-        "PMD": null
-      },
-      "Toy_Robo_4": {
-        "BMD": ["Recov80 J", "HPMemory"],
-        "PMD": null
-      },
-      "Meteor_Area_1": {
-        "BMD": ["Geddon1 W", "Hi-Cannon D", "HPMemory"],
-        "PMD": null
-      },
-      "Meteor_Area_2": {
-        "BMD": ["WideBlde K", "RegUp3", "1800z"],
-        "PMD": null
-      },
-      "Meteor_Area_3": {
-        "BMD": ["Counter2 L", "HP+100", "BugFrag"],
-        "PMD": null
-      },
-      "Meteor_Area_4": {
-        "BMD": ["Recov120 F", "VarSwrd V", "FullEnerg", "Attack+1"],
-        "PMD": null
-      },
-      "Microwave": {
-        "BMD": ["500z"],
-        "PMD": null
-      },
-      "DogHouse": {
-        "BMD": ["Barrier A"],
-        "PMD": null
-      },
-      "Game_Console": {
-        "BMD": ["Counter1 T"],
-        "PMD": null
-      },
-      "Teddy_Bear": {
-        "BMD": ["MiniBomb*"],
-        "PMD": null
-      },
-      "Jomon_Stereo": {
-        "BMD": ["PanlGrab*", "RegUp1"],
-        "PMD": null
-      },
-      "Jomon_Monitor": {
-        "BMD": ["RegUp2"],
-        "PMD": null
-      },
-      "Hot_Dog_Stand": {
-        "BMD": ["HPMemory"],
-        "PMD": null
-      },
-      "Drink_Machine": {
-        "BMD": ["Recov50 S"],
-        "PMD": null
-      },
-      "Card_Reader": {
-        "BMD": ["Unlocker"],
-        "PMD": null
-      },
-      "Sink_Filter": {
-        "BMD": ["Fish"],
-        "PMD": null
-      },
-      "CyberTop": {
-        "BMD": ["1600z"],
-        "PMD": null
-      },
-      "Den_Battle_Machine": {
-        "BMD": ["Spreader M"],
-        "PMD": null
-      },
-      "Ticket_Machine": {
-        "BMD": ["SubMem"],
-        "PMD": null
-      },
-      "Ice_Cream_Cart": {
-        "BMD": ["HPMemory"],
-        "PMD": null
-      },
-      "Castle_Battle_Machine": {
-        "BMD": ["HPMemory"],
-        "PMD": null
-      },
-      "Goddess_Statue": {
-        "BMD": ["Recov150 Z"],
-        "PMD": null
-      },
-      "Hero_Statue": {
-        "BMD": ["ExpMem"],
-        "PMD": null
-      },
-      "Colosseum_Battle_Machine": {
-        "BMD": ["SpinPink"],
-        "PMD": null
-      },
-      "Statue_Comp": {
-        "BMD": ["SpinWhite"],
-        "PMD": null
-      },
-      "Buddha_Statue": {
-        "BMD": ["2000z"],
-        "PMD": null
-      },
-      "Nupopo_Statue": {
-        "BMD": ["SubMem"],
-        "PMD": null
-      },
-      "Lion_Statue": {
-        "BMD": ["RegUp2"],
-        "PMD": null
-      },
-      "Antenna_1": {
-        "BMD": ["RegUp1"],
-        "PMD": null
-      },
-      "Antenna_2": {
-        "BMD": ["HPMemory"],
-        "PMD": null
-      },
-      "Antenna_3": {
-        "BMD": ["BugBomb G"],
-        "PMD": null
-      },
-      "Antenna_4": {
-        "BMD": ["Battery"],
-        "PMD": null
-      },
-      "Sharo_Space_Center_Comp": {
-        "BMD": ["Speed+1"],
-        "PMD": null
-      }
+  "Normal_Mode": {
+    "ACDC_Area_1": {
+      "BMD": ["BugStop", "MiniEnrg"],
+      "PMD": null
     },
-    "Hard_Mode": {
-      "ACDC_Area_1": {
-        "BMD": ["RegUp2", "TripCrak *"],
-        "PMD": null
-      },
-      "ACDC_Area_2": {
-        "BMD": null,
-        "PMD": null
-      },
-      "ACDC_Area_3": {
-        "BMD": ["Charge +1", "BugFrag"],
-        "PMD": null
-      },
-      "Town_Area_1": {
-        "BMD": ["RegUp1"],
-        "PMD": null
-      },
-      "Town_Area_2": {
-        "BMD": ["3400z"],
-        "PMD": null
-      },
-      "Town_Area_3": {
-        "BMD": ["Hi-Cannon E"],
-        "PMD": null
-      },
-      "Town_Area_4": {
-        "BMD": null,
-        "PMD": null
-      },
-      "Park_Area_1": {
-        "BMD": ["RegUp1", "HPMemory"],
-        "PMD": null
-      },
-      "Park_Area_2": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Park_Area_3": {
-        "BMD": ["4000z", "Charge+1"],
-        "PMD": null
-      },
-      "Netopia_Area": {
-        "BMD": ["BugFrag", "RegUp1"],
-        "PMD": null
-      },
-      "Yumland_Area": {
-        "BMD": ["1300z"],
-        "PMD": null
-      },
-      "Netfrica_Area": {
-        "BMD": ["2300z", "AntiRecov D"],
-        "PMD": null
-      },
-      "Sharo_Area": {
-        "BMD": ["HPMemory", "Speed+1"],
-        "PMD": null
-      },
-      "Undernet_Area_1": {
-        "BMD": ["HPMemory"],
-        "PMD": null
-      },
-      "Undernet_Area_2": {
-        "BMD": ["RegUp1", "Barr200 U"],
-        "PMD": null
-      },
-      "Undernet_Area_3": {
-        "BMD": ["3000z", "AntiFire K"],
-        "PMD": null
-      },
-      "Undernet_Area_4": {
-        "BMD": ["M-Cannon G", "BugBomb *"],
-        "PMD": null
-      },
-      "Undernet_Area_5": {
-        "BMD": null,
-        "PMD": null
-      },
-      "Undernet_Area_6": {
-        "BMD": ["BugFrag", "BlkBomb D"],
-        "PMD": null
-      },
-      "Black_Earth_Area_1": {
-        "BMD": null,
-        "PMD": null
-      },
-      "Black_Earth_Area_2": {
-        "BMD": null,
-        "PMD": null
-      },
-      "ELTowComp1": {
-        "BMD": ["BugFrag", "MegEnBom D", "RegUp1"],
-        "PMD": null
-      },
-      "ELTowComp2": {
-        "BMD": ["2300z", "WideBlde C", "HPMemory"],
-        "PMD": null
-      },
-      "Toy_Robo_1": {
-        "BMD": ["3200z", "RegUp1", "Counter3 V"],
-        "PMD": null
-      },
-      "Toy_Robo_2": {
-        "BMD": ["1500z", "BugFrag", "Recov150 C"],
-        "PMD": null
-      },
-      "Toy_Robo_3": {
-        "BMD": ["HPMemory", "Attack+1"],
-        "PMD": null
-      },
-      "Toy_Robo_4": {
-        "BMD": ["RegUp2", "Vulcan3 W"],
-        "PMD": null
-      },
-      "Meteor_Area_1": {
-        "BMD": ["1800z", "Recov200 M", "SpinRed"],
-        "PMD": null
-      },
-      "Meteor_Area_2": {
-        "BMD": ["RegUp1", "BugFrag", "NrthWind E"],
-        "PMD": null
-      },
-      "Meteor_Area_3": {
-        "BMD": ["HPMemory", "3000z", "M-Cannon E"],
-        "PMD": null
-      },
-      "Meteor_Area_4": {
-        "BMD": ["BugFrag", "HP+200", "FullEnerg", "RegUp1"],
-        "PMD": null
-      },
-      "Microwave": {
-        "BMD": ["1000z"],
-        "PMD": null
-      },
-      "DogHouse": {
-        "BMD": ["HP+50"],
-        "PMD": null
-      },
-      "Game_Console": {
-        "BMD": ["1000z"],
-        "PMD": null
-      },
-      "Teddy_Bear": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Jomon_Stereo": {
-        "BMD": ["BugFrag", "FullEnerg"],
-        "PMD": null
-      },
-      "Jomon_Monitor": {
-        "BMD": ["RegUp1"],
-        "PMD": null
-      },
-      "Hot_Dog_Stand": {
-        "BMD": ["2600z"],
-        "PMD": null
-      },
-      "Drink_Machine": {
-        "BMD": ["HPMemory"],
-        "PMD": null
-      },
-      "Card_Reader": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Sink_Filter": {
-        "BMD": ["Speed+1"],
-        "PMD": null
-      },
-      "CyberTop": {
-        "BMD": ["2000z"],
-        "PMD": null
-      },
-      "Den_Battle_Machine": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Ticket_Machine": {
-        "BMD": ["Vulcan3 O"],
-        "PMD": null
-      },
-      "Ice_Cream_Cart": {
-        "BMD": ["RegUp1"],
-        "PMD": null
-      },
-      "Castle_Battle_Machine": {
-        "BMD": ["SubMem"],
-        "PMD": null
-      },
-      "Goddess_Statue": {
-        "BMD": ["SpinYellow"],
-        "PMD": null
-      },
-      "Hero_Statue": {
-        "BMD": ["M-Cannon F"],
-        "PMD": null
-      },
-      "Colosseum_Battle_Machine": {
-        "BMD": ["1800z"],
-        "PMD": null
-      },
-      "Statue_Comp": {
-        "BMD": ["HPMemory"],
-        "PMD": null
-      },
-      "Buddha_Statue": {
-        "BMD": ["2000z"],
-        "PMD": null
-      },
-      "Nupopo_Statue": {
-        "BMD": ["LocEnemy"],
-        "PMD": null
-      },
-      "Lion_Statue": {
-        "BMD": ["SneakRun"],
-        "PMD": null
-      },
-      "Antenna_1": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Antenna_2": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Antenna_3": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Antenna_4": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Sharo_Space_Center_Comp": {
-        "BMD": ["RegUp1"],
-        "PMD": null
-      }
+    "ACDC_Area_2": {
+      "BMD": null,
+      "PMD": ["Geyser L"]
     },
-    "Super_Hard_Mode": {
-      "ACDC_Area_1": {
-        "BMD": ["BugFrag", "HP +50"],
-        "PMD": null
-      },
-      "ACDC_Area_2": {
-        "BMD": null,
-        "PMD": ["AntiWood M"]
-      },
-      "ACDC_Area_3": {
-        "BMD": ["BugFrag", "MegEnBom D"],
-        "PMD": null
-      },
-      "Town_Area_1": {
-        "BMD": ["BugFrag"],
-        "PMD": ["BugFrag 3"]
-      },
-      "Town_Area_2": {
-        "BMD": ["CustSwrd S"],
-        "PMD": ["SpinBlue"]
-      },
-      "Town_Area_3": {
-        "BMD": ["BugFrag"],
-        "PMD": ["HPMemory"]
-      },
-      "Town_Area_4": {
-        "BMD": null,
-        "PMD": ["GrabRvng D"]
-      },
-      "Park_Area_1": {
-        "BMD": ["1800z", "BugFrag"],
-        "PMD": null
-      },
-      "Park_Area_2": {
-        "BMD": ["ColorPt *"],
-        "PMD": ["HP+200"]
-      },
-      "Park_Area_3": {
-        "BMD": ["1500z", "BugFrag"],
-        "PMD": ["HPMemory"]
-      },
-      "Netopia_Area": {
-        "BMD": ["Snake D", "BugFrag"],
-        "PMD": null
-      },
-      "Yumland_Area": {
-        "BMD": ["BugFrag"],
-        "PMD": ["RegUp2"]
-      },
-      "Netfrica_Area": {
-        "BMD": ["2800z", "HPMemory"],
-        "PMD": null
-      },
-      "Sharo_Area": {
-        "BMD": ["1500z", "SubMem"],
-        "PMD": ["BlkBomb Z"]
-      },
-      "Undernet_Area_1": {
-        "BMD": ["1500z"],
-        "PMD": ["HP+400"]
-      },
-      "Undernet_Area_2": {
-        "BMD": ["2900z", "HP+300"],
-        "PMD": null
-      },
-      "Undernet_Area_3": {
-        "BMD": ["5000z", "BugFrag"],
-        "PMD": null
-      },
-      "Undernet_Area_4": {
-        "BMD": ["BugFrag", "1400z"],
-        "PMD": null
-      },
-      "Undernet_Area_5": {
-        "BMD": ["2000z", "BugFrag"],
-        "PMD": null
-      },
-      "Undernet_Area_6": {
-        "BMD": ["2400z", "BugFrag"],
-        "PMD": null
-      },
-      "Black_Earth_Area_1": {
-        "BMD": ["HPMemory", "LifeAura D"],
-        "PMD": null
-      },
-      "Black_Earth_Area_2": {
-        "BMD": ["3000z", "HPMemory"],
-        "PMD": null
-      },
-      "ELTowComp1": {
-        "BMD": ["1400z", "Charge+1", "HPMemory"],
-        "PMD": null
-      },
-      "ELTowComp2": {
-        "BMD": ["BugFrag", "2900z", "RegUp2"],
-        "PMD": null
-      },
-      "Toy_Robo_1": {
-        "BMD": ["100z", "HPMemory", "M-Cannon G"],
-        "PMD": null
-      },
-      "Toy_Robo_2": {
-        "BMD": ["BugFrag", "Bugbomb B", "220Z"],
-        "PMD": null
-      },
-      "Toy_Robo_3": {
-        "BMD": ["HP+300", "BugFrag"],
-        "PMD": null
-      },
-      "Toy_Robo_4": {
-        "BMD": ["RegUp1", "Vulcan3 W"],
-        "PMD": null
-      },
-      "Meteor_Area_1": {
-        "BMD": ["2000z", "RegUp1", "BugFrag"],
-        "PMD": null
-      },
-      "Meteor_Area_2": {
-        "BMD": ["3200z", "Bugfix *", "HPMemory"],
-        "PMD": null
-      },
-      "Meteor_Area_3": {
-        "BMD": ["BugFrag", "LongBlde R", "2500z"],
-        "PMD": null
-      },
-      "Meteor_Area_4": {
-        "BMD": ["WindRack *", "1700z", "FullEnerg", "BugFrag"],
-        "PMD": null
-      },
-      "Microwave": {
-        "BMD": ["2000z"],
-        "PMD": null
-      },
-      "DogHouse": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Game_Console": {
-        "BMD": ["Untrap"],
-        "PMD": null
-      },
-      "Teddy_Bear": {
-        "BMD": ["800z"],
-        "PMD": null
-      },
-      "Jomon_Stereo": {
-        "BMD": ["LocEnemy", "BugFrag"],
-        "PMD": null
-      },
-      "Jomon_Monitor": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Hot_Dog_Stand": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Drink_Machine": {
-        "BMD": ["1500z"],
-        "PMD": null
-      },
-      "Card_Reader": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Sink_Filter": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "CyberTop": {
-        "BMD": ["2400z"],
-        "PMD": null
-      },
-      "Den_Battle_Machine": {
-        "BMD": ["1400z"],
-        "PMD": null
-      },
-      "Ticket_Machine": {
-        "BMD": ["Recov150 T"],
-        "PMD": null
-      },
-      "Ice_Cream_Cart": {
-        "BMD": ["1300z"],
-        "PMD": null
-      },
-      "Castle_Battle_Machine": {
-        "BMD": ["1000z"],
-        "PMD": null
-      },
-      "Goddess_Statue": {
-        "BMD": ["HolyPanl *"],
-        "PMD": null
-      },
-      "Hero_Statue": {
-        "BMD": ["Barr100 P"],
-        "PMD": null
-      },
-      "Colosseum_Battle_Machine": {
-        "BMD": ["Unlocker"],
-        "PMD": null
-      },
-      "Statue_Comp": {
-        "BMD": ["2000z"],
-        "PMD": null
-      },
-      "Buddha_Statue": {
-        "BMD": ["2000z"],
-        "PMD": null
-      },
-      "Nupopo_Statue": {
-        "BMD": ["FullEnerg"],
-        "PMD": null
-      },
-      "Lion_Statue": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Antenna_1": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Antenna_2": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Antenna_3": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Antenna_4": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      },
-      "Sharo_Space_Center_Comp": {
-        "BMD": ["BugFrag"],
-        "PMD": null
-      }
+    "ACDC_Area_3": {
+      "BMD": ["Jealousy J", "CopyDmg *"],
+      "PMD": null
+    },
+    "Town_Area_1": {
+      "BMD": ["SandRing *"],
+      "PMD": ["HPMemory"]
+    },
+    "Town_Area_2": {
+      "BMD": ["Invis *"],
+      "PMD": ["Blinder *"]
+    },
+    "Town_Area_3": {
+      "BMD": ["Recov30 R"],
+      "PMD": null
+    },
+    "Town_Area_4": {
+      "BMD": null,
+      "PMD": null
+    },
+    "Park_Area_1": {
+      "BMD": ["AntiSwrd N", "RegUp1"],
+      "PMD": null
+    },
+    "Park_Area_2": {
+      "BMD": ["HPMemory"],
+      "PMD": ["VarSwrd V"]
+    },
+    "Park_Area_3": {
+      "BMD": ["MegFldr1", "BugFrag"],
+      "PMD": ["ColorPt *"]
+    },
+    "Netopia_Area": {
+      "BMD": ["SprArmor", "HPMemory"],
+      "PMD": null
+    },
+    "Yumland_Area": {
+      "BMD": ["RegUp2"],
+      "PMD": ["Lance G"]
+    },
+    "Netfrica_Area": {
+      "BMD": ["Barr100 W", "Jungle"],
+      "PMD": null
+    },
+    "Sharo_Area": {
+      "BMD": ["HPMemory", "HP+200"],
+      "PMD": ["BlkBomb Z"]
+    },
+    "Undernet_Area_1": {
+      "BMD": ["RegUp1"],
+      "PMD": ["Snake M"]
+    },
+    "Undernet_Area_2": {
+      "BMD": ["ExpMem", "SpeedMAX"],
+      "PMD": null
+    },
+    "Undernet_Area_3": {
+      "BMD": ["HPMemory", "Recov120 Q"],
+      "PMD": null
+    },
+    "Undernet_Area_4": {
+      "BMD": ["HPMemory", "Custom1"],
+      "PMD": ["Guardian O"]
+    },
+    "Undernet_Area_5": {
+      "BMD": null,
+      "PMD": null
+    },
+    "Undernet_Area_6": {
+      "BMD": ["Hole *", "Attack+1"],
+      "PMD": null
+    },
+    "Black_Earth_Area_1": {
+      "BMD": null,
+      "PMD": null
+    },
+    "Black_Earth_Area_2": {
+      "BMD": null,
+      "PMD": null
+    },
+    "ELTowComp1": {
+      "BMD": ["Spearder M", "RegUp2", "700z"],
+      "PMD": null
+    },
+    "ELTowComp2": {
+      "BMD": ["LongSwrd S", "HPMemory", "BugFrag(1)"],
+      "PMD": null
+    },
+    "Toy_Robo_1": {
+      "BMD": ["RegUp1", "HP+50", "1400z"],
+      "PMD": null
+    },
+    "Toy_Robo_2": {
+      "BMD": ["RockCube *", "Vulcan2 B", "HPMemory"],
+      "PMD": null
+    },
+    "Toy_Robo_3": {
+      "BMD": ["Charge+1", "RegUp2"],
+      "PMD": null
+    },
+    "Toy_Robo_4": {
+      "BMD": ["Recov80 J", "HPMemory"],
+      "PMD": null
+    },
+    "Meteor_Area_1": {
+      "BMD": ["Geddon1 W", "Hi-Cannon D", "HPMemory"],
+      "PMD": null
+    },
+    "Meteor_Area_2": {
+      "BMD": ["WideBlde K", "RegUp3", "1800z"],
+      "PMD": null
+    },
+    "Meteor_Area_3": {
+      "BMD": ["Counter2 L", "HP+100", "BugFrag"],
+      "PMD": null
+    },
+    "Meteor_Area_4": {
+      "BMD": ["Recov120 F", "VarSwrd V", "FullEnerg", "Attack+1"],
+      "PMD": null
+    },
+    "Microwave": {
+      "BMD": ["500z"],
+      "PMD": null
+    },
+    "DogHouse": {
+      "BMD": ["Barrier A"],
+      "PMD": null
+    },
+    "Game_Console": {
+      "BMD": ["Counter1 T"],
+      "PMD": null
+    },
+    "Teddy_Bear": {
+      "BMD": ["MiniBomb*"],
+      "PMD": null
+    },
+    "Jomon_Stereo": {
+      "BMD": ["PanlGrab*", "RegUp1"],
+      "PMD": null
+    },
+    "Jomon_Monitor": {
+      "BMD": ["RegUp2"],
+      "PMD": null
+    },
+    "Hot_Dog_Stand": {
+      "BMD": ["HPMemory"],
+      "PMD": null
+    },
+    "Drink_Machine": {
+      "BMD": ["Recov50 S"],
+      "PMD": null
+    },
+    "Card_Reader": {
+      "BMD": ["Unlocker"],
+      "PMD": null
+    },
+    "Sink_Filter": {
+      "BMD": ["Fish"],
+      "PMD": null
+    },
+    "CyberTop": {
+      "BMD": ["1600z"],
+      "PMD": null
+    },
+    "Den_Battle_Machine": {
+      "BMD": ["Spreader M"],
+      "PMD": null
+    },
+    "Ticket_Machine": {
+      "BMD": ["SubMem"],
+      "PMD": null
+    },
+    "Ice_Cream_Cart": {
+      "BMD": ["HPMemory"],
+      "PMD": null
+    },
+    "Castle_Battle_Machine": {
+      "BMD": ["HPMemory"],
+      "PMD": null
+    },
+    "Goddess_Statue": {
+      "BMD": ["Recov150 Z"],
+      "PMD": null
+    },
+    "Hero_Statue": {
+      "BMD": ["ExpMem"],
+      "PMD": null
+    },
+    "Colosseum_Battle_Machine": {
+      "BMD": ["SpinPink"],
+      "PMD": null
+    },
+    "Statue_Comp": {
+      "BMD": ["SpinWhite"],
+      "PMD": null
+    },
+    "Buddha_Statue": {
+      "BMD": ["2000z"],
+      "PMD": null
+    },
+    "Nupopo_Statue": {
+      "BMD": ["SubMem"],
+      "PMD": null
+    },
+    "Lion_Statue": {
+      "BMD": ["RegUp2"],
+      "PMD": null
+    },
+    "Antenna_1": {
+      "BMD": ["RegUp1"],
+      "PMD": null
+    },
+    "Antenna_2": {
+      "BMD": ["HPMemory"],
+      "PMD": null
+    },
+    "Antenna_3": {
+      "BMD": ["BugBomb G"],
+      "PMD": null
+    },
+    "Antenna_4": {
+      "BMD": ["Battery"],
+      "PMD": null
+    },
+    "Sharo_Space_Center_Comp": {
+      "BMD": ["Speed+1"],
+      "PMD": null
+    }
+  },
+  "Hard_Mode": {
+    "ACDC_Area_1": {
+      "BMD": ["RegUp2", "TripCrak *"],
+      "PMD": null
+    },
+    "ACDC_Area_2": {
+      "BMD": null,
+      "PMD": ["AntiElec H"]
+    },
+    "ACDC_Area_3": {
+      "BMD": ["Charge +1", "BugFrag"],
+      "PMD": null
+    },
+    "Town_Area_1": {
+      "BMD": ["RegUp1"],
+      "PMD": ["SpinGreen"]
+    },
+    "Town_Area_2": {
+      "BMD": ["3400z"],
+      "PMD": ["AntiDmg M"]
+    },
+    "Town_Area_3": {
+      "BMD": ["Hi-Cannon E"],
+      "PMD": ["HP+400"]
+    },
+    "Town_Area_4": {
+      "BMD": null,
+      "PMD": ["AntiAqua D"]
+    },
+    "Park_Area_1": {
+      "BMD": ["RegUp1", "HPMemory"],
+      "PMD": null
+    },
+    "Park_Area_2": {
+      "BMD": ["BugFrag"],
+      "PMD": ["BugFrag 5"]
+    },
+    "Park_Area_3": {
+      "BMD": ["4000z", "Charge+1"],
+      "PMD": ["DblPoint *"]
+    },
+    "Netopia_Area": {
+      "BMD": ["BugFrag", "RegUp1"],
+      "PMD": null
+    },
+    "Yumland_Area": {
+      "BMD": ["1300z"],
+      "PMD": ["BugFix B"]
+    },
+    "Netfrica_Area": {
+      "BMD": ["2300z", "AntiRecov D"],
+      "PMD": null
+    },
+    "Sharo_Area": {
+      "BMD": ["HPMemory", "Speed+1"],
+      "PMD": ["BlkBomb Z"]
+    },
+    "Undernet_Area_1": {
+      "BMD": ["HPMemory"],
+      "PMD": ["GodHammr G"]
+    },
+    "Undernet_Area_2": {
+      "BMD": ["RegUp1", "Barr200 U"],
+      "PMD": null
+    },
+    "Undernet_Area_3": {
+      "BMD": ["3000z", "AntiFire K"],
+      "PMD": null
+    },
+    "Undernet_Area_4": {
+      "BMD": ["M-Cannon G", "BugBomb *"],
+      "PMD": ["DarkLine L"]
+    },
+    "Undernet_Area_5": {
+      "BMD": null,
+      "PMD": null
+    },
+    "Undernet_Area_6": {
+      "BMD": ["BugFrag", "BlkBomb D"],
+      "PMD": null
+    },
+    "Black_Earth_Area_1": {
+      "BMD": null,
+      "PMD": null
+    },
+    "Black_Earth_Area_2": {
+      "BMD": null,
+      "PMD": null
+    },
+    "ELTowComp1": {
+      "BMD": ["BugFrag", "MegEnBom D", "RegUp1"],
+      "PMD": null
+    },
+    "ELTowComp2": {
+      "BMD": ["2300z", "WideBlde C", "HPMemory"],
+      "PMD": null
+    },
+    "Toy_Robo_1": {
+      "BMD": ["3200z", "RegUp1", "Counter3 V"],
+      "PMD": null
+    },
+    "Toy_Robo_2": {
+      "BMD": ["1500z", "BugFrag", "Recov150 C"],
+      "PMD": null
+    },
+    "Toy_Robo_3": {
+      "BMD": ["HPMemory", "Attack+1"],
+      "PMD": null
+    },
+    "Toy_Robo_4": {
+      "BMD": ["RegUp2", "Vulcan3 W"],
+      "PMD": null
+    },
+    "Meteor_Area_1": {
+      "BMD": ["1800z", "Recov200 M", "SpinRed"],
+      "PMD": null
+    },
+    "Meteor_Area_2": {
+      "BMD": ["RegUp1", "BugFrag", "NrthWind E"],
+      "PMD": null
+    },
+    "Meteor_Area_3": {
+      "BMD": ["HPMemory", "3000z", "M-Cannon E"],
+      "PMD": null
+    },
+    "Meteor_Area_4": {
+      "BMD": ["BugFrag", "HP+200", "FullEnerg", "RegUp1"],
+      "PMD": null
+    },
+    "Microwave": {
+      "BMD": ["1000z"],
+      "PMD": null
+    },
+    "DogHouse": {
+      "BMD": ["HP+50"],
+      "PMD": null
+    },
+    "Game_Console": {
+      "BMD": ["1000z"],
+      "PMD": null
+    },
+    "Teddy_Bear": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Jomon_Stereo": {
+      "BMD": ["BugFrag", "FullEnerg"],
+      "PMD": null
+    },
+    "Jomon_Monitor": {
+      "BMD": ["RegUp1"],
+      "PMD": null
+    },
+    "Hot_Dog_Stand": {
+      "BMD": ["2600z"],
+      "PMD": null
+    },
+    "Drink_Machine": {
+      "BMD": ["HPMemory"],
+      "PMD": null
+    },
+    "Card_Reader": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Sink_Filter": {
+      "BMD": ["Speed+1"],
+      "PMD": null
+    },
+    "CyberTop": {
+      "BMD": ["2000z"],
+      "PMD": null
+    },
+    "Den_Battle_Machine": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Ticket_Machine": {
+      "BMD": ["Vulcan3 O"],
+      "PMD": null
+    },
+    "Ice_Cream_Cart": {
+      "BMD": ["RegUp1"],
+      "PMD": null
+    },
+    "Castle_Battle_Machine": {
+      "BMD": ["SubMem"],
+      "PMD": null
+    },
+    "Goddess_Statue": {
+      "BMD": ["SpinYellow"],
+      "PMD": null
+    },
+    "Hero_Statue": {
+      "BMD": ["M-Cannon F"],
+      "PMD": null
+    },
+    "Colosseum_Battle_Machine": {
+      "BMD": ["1800z"],
+      "PMD": null
+    },
+    "Statue_Comp": {
+      "BMD": ["HPMemory"],
+      "PMD": null
+    },
+    "Buddha_Statue": {
+      "BMD": ["2000z"],
+      "PMD": null
+    },
+    "Nupopo_Statue": {
+      "BMD": ["LocEnemy"],
+      "PMD": null
+    },
+    "Lion_Statue": {
+      "BMD": ["SneakRun"],
+      "PMD": null
+    },
+    "Antenna_1": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Antenna_2": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Antenna_3": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Antenna_4": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Sharo_Space_Center_Comp": {
+      "BMD": ["RegUp1"],
+      "PMD": null
+    }
+  },
+  "Super_Hard_Mode": {
+    "ACDC_Area_1": {
+      "BMD": ["BugFrag", "HP +50"],
+      "PMD": null
+    },
+    "ACDC_Area_2": {
+      "BMD": null,
+      "PMD": ["AntiWood M"]
+    },
+    "ACDC_Area_3": {
+      "BMD": ["BugFrag", "MegEnBom D"],
+      "PMD": null
+    },
+    "Town_Area_1": {
+      "BMD": ["BugFrag"],
+      "PMD": ["BugFrag 3"]
+    },
+    "Town_Area_2": {
+      "BMD": ["CustSwrd S"],
+      "PMD": ["SpinBlue"]
+    },
+    "Town_Area_3": {
+      "BMD": ["BugFrag"],
+      "PMD": ["HPMemory"]
+    },
+    "Town_Area_4": {
+      "BMD": null,
+      "PMD": ["GrabRvng D"]
+    },
+    "Park_Area_1": {
+      "BMD": ["1800z", "BugFrag"],
+      "PMD": null
+    },
+    "Park_Area_2": {
+      "BMD": ["ColorPt *"],
+      "PMD": ["HP+200"]
+    },
+    "Park_Area_3": {
+      "BMD": ["1500z", "BugFrag"],
+      "PMD": ["HPMemory"]
+    },
+    "Netopia_Area": {
+      "BMD": ["Snake D", "BugFrag"],
+      "PMD": null
+    },
+    "Yumland_Area": {
+      "BMD": ["BugFrag"],
+      "PMD": ["RegUp2"]
+    },
+    "Netfrica_Area": {
+      "BMD": ["2800z", "HPMemory"],
+      "PMD": null
+    },
+    "Sharo_Area": {
+      "BMD": ["1500z", "SubMem"],
+      "PMD": ["BlkBomb Z"]
+    },
+    "Undernet_Area_1": {
+      "BMD": ["1500z"],
+      "PMD": ["HP+400"]
+    },
+    "Undernet_Area_2": {
+      "BMD": ["2900z", "HP+300"],
+      "PMD": null
+    },
+    "Undernet_Area_3": {
+      "BMD": ["5000z", "BugFrag"],
+      "PMD": null
+    },
+    "Undernet_Area_4": {
+      "BMD": ["BugFrag", "1400z"],
+      "PMD": null
+    },
+    "Undernet_Area_5": {
+      "BMD": ["2000z", "BugFrag"],
+      "PMD": null
+    },
+    "Undernet_Area_6": {
+      "BMD": ["2400z", "BugFrag"],
+      "PMD": null
+    },
+    "Black_Earth_Area_1": {
+      "BMD": ["HPMemory", "LifeAura D"],
+      "PMD": null
+    },
+    "Black_Earth_Area_2": {
+      "BMD": ["3000z", "HPMemory"],
+      "PMD": null
+    },
+    "ELTowComp1": {
+      "BMD": ["1400z", "Charge+1", "HPMemory"],
+      "PMD": null
+    },
+    "ELTowComp2": {
+      "BMD": ["BugFrag", "2900z", "RegUp2"],
+      "PMD": null
+    },
+    "Toy_Robo_1": {
+      "BMD": ["100z", "HPMemory", "M-Cannon G"],
+      "PMD": null
+    },
+    "Toy_Robo_2": {
+      "BMD": ["BugFrag", "Bugbomb B", "220Z"],
+      "PMD": null
+    },
+    "Toy_Robo_3": {
+      "BMD": ["HP+300", "BugFrag"],
+      "PMD": null
+    },
+    "Toy_Robo_4": {
+      "BMD": ["RegUp1", "Vulcan3 W"],
+      "PMD": null
+    },
+    "Meteor_Area_1": {
+      "BMD": ["2000z", "RegUp1", "BugFrag"],
+      "PMD": null
+    },
+    "Meteor_Area_2": {
+      "BMD": ["3200z", "Bugfix *", "HPMemory"],
+      "PMD": null
+    },
+    "Meteor_Area_3": {
+      "BMD": ["BugFrag", "LongBlde R", "2500z"],
+      "PMD": null
+    },
+    "Meteor_Area_4": {
+      "BMD": ["WindRack *", "1700z", "FullEnerg", "BugFrag"],
+      "PMD": null
+    },
+    "Microwave": {
+      "BMD": ["2000z"],
+      "PMD": null
+    },
+    "DogHouse": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Game_Console": {
+      "BMD": ["Untrap"],
+      "PMD": null
+    },
+    "Teddy_Bear": {
+      "BMD": ["800z"],
+      "PMD": null
+    },
+    "Jomon_Stereo": {
+      "BMD": ["LocEnemy", "BugFrag"],
+      "PMD": null
+    },
+    "Jomon_Monitor": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Hot_Dog_Stand": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Drink_Machine": {
+      "BMD": ["1500z"],
+      "PMD": null
+    },
+    "Card_Reader": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Sink_Filter": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "CyberTop": {
+      "BMD": ["2400z"],
+      "PMD": null
+    },
+    "Den_Battle_Machine": {
+      "BMD": ["1400z"],
+      "PMD": null
+    },
+    "Ticket_Machine": {
+      "BMD": ["Recov150 T"],
+      "PMD": null
+    },
+    "Ice_Cream_Cart": {
+      "BMD": ["1300z"],
+      "PMD": null
+    },
+    "Castle_Battle_Machine": {
+      "BMD": ["1000z"],
+      "PMD": null
+    },
+    "Goddess_Statue": {
+      "BMD": ["HolyPanl *"],
+      "PMD": null
+    },
+    "Hero_Statue": {
+      "BMD": ["Barr100 P"],
+      "PMD": null
+    },
+    "Colosseum_Battle_Machine": {
+      "BMD": ["Unlocker"],
+      "PMD": null
+    },
+    "Statue_Comp": {
+      "BMD": ["2000z"],
+      "PMD": null
+    },
+    "Buddha_Statue": {
+      "BMD": ["2000z"],
+      "PMD": null
+    },
+    "Nupopo_Statue": {
+      "BMD": ["FullEnerg"],
+      "PMD": null
+    },
+    "Lion_Statue": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Antenna_1": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Antenna_2": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Antenna_3": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Antenna_4": {
+      "BMD": ["BugFrag"],
+      "PMD": null
+    },
+    "Sharo_Space_Center_Comp": {
+      "BMD": ["BugFrag"],
+      "PMD": null
     }
   }
-  
+}
