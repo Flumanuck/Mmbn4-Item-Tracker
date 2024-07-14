@@ -16,7 +16,7 @@ app.use(cors());
 const verifyToken = (req, res, next) => {
   const token = req.headers['authorization'];
   if (!token) {
-    return res.status(403).json({ error: 'Token is required' }); // Return JSON
+    return res.status(403).json({ error: 'Token is required' }); 
   }
 
   try {
@@ -24,7 +24,7 @@ const verifyToken = (req, res, next) => {
     req.user = decoded;
     next();
   } catch (error) {
-    return res.status(401).json({ error: 'Invalid token' }); // Return JSON
+    return res.status(401).json({ error: 'Invalid token' }); 
   }
 };
 
@@ -54,7 +54,7 @@ app.post('/register', async (req, res) => {
     res.status(201).json({ userId, token });
   } catch (error) {
     console.error('Error registering user:', error);
-    res.status(500).json({ error: 'Error registering user' }); // Return JSON
+    res.status(500).json({ error: 'Error registering user' }); 
   }
 });
 
@@ -65,13 +65,13 @@ app.post('/login', async (req, res) => {
     const user = await knex('users').where({ username }).first();
 
     if (!user) {
-      return res.status(400).json({ error: 'User not found' }); // Return JSON
+      return res.status(400).json({ error: 'User not found' }); 
     }
 
     const hashedPassword = generateHashedPassword(password, user.salt);
 
     if (hashedPassword !== user.password) {
-      return res.status(401).json({ error: 'Invalid password' }); // Return JSON
+      return res.status(401).json({ error: 'Invalid password' }); 
     }
 
     const token = jwt.sign({ userId: user.id, username: user.username }, SECRET_KEY, { expiresIn: '1h' });
@@ -79,7 +79,7 @@ app.post('/login', async (req, res) => {
     res.status(200).json({ userId: user.id, token });
   } catch (error) {
     console.error('Error logging in user:', error);
-    res.status(500).json({ error: 'Error logging in user' }); // Return JSON
+    res.status(500).json({ error: 'Error logging in user' }); 
   }
 });
 
@@ -102,7 +102,7 @@ app.get("/api/items/:userId/:difficulty", verifyToken, async (req, res) => {
   const dbDifficulty = difficultyMap[difficulty];
 
   if (!dbDifficulty) {
-    return res.status(400).json({ error: 'Invalid difficulty' }); // Return JSON
+    return res.status(400).json({ error: 'Invalid difficulty' }); 
   }
 
   try {
@@ -115,7 +115,7 @@ app.get("/api/items/:userId/:difficulty", verifyToken, async (req, res) => {
     res.status(200).json(items);
   } catch (error) {
     console.error('Error fetching items:', error);
-    res.status(500).json({ error: 'Error fetching items' }); // Return JSON
+    res.status(500).json({ error: 'Error fetching items' }); 
   }
 });
 
@@ -126,10 +126,10 @@ app.put("/api/items/reset/:userId", verifyToken, async (req, res) => {
     await knex('user_items')
       .where({ user_id: userId })
       .update({ is_checked: false });
-    res.status(200).json({ message: 'All items reset to unchecked' }); // Return JSON
+    res.status(200).json({ message: 'All items reset to unchecked' }); 
   } catch (error) {
     console.error('Error resetting items:', error); 
-    res.status(500).json({ error: 'Error resetting items' }); // Return JSON
+    res.status(500).json({ error: 'Error resetting items' }); 
   }
 });
 
@@ -141,10 +141,10 @@ app.put("/api/items/:userId/:itemId", verifyToken, async (req, res) => {
     await knex('user_items')
       .where({ user_id: userId, item_id: itemId })
       .update({ is_checked });
-    res.status(200).json({ message: 'Item status updated' }); // Return JSON
+    res.status(200).json({ message: 'Item status updated' }); 
   } catch (error) {
     console.error('Error updating item status:', error); 
-    res.status(500).json({ error: 'Error updating item status' }); // Return JSON
+    res.status(500).json({ error: 'Error updating item status' }); 
   }
 });
 
