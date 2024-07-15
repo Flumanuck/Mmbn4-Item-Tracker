@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'gba-mmbn';
+    src: url('../fonts/Mega-Man-Battle-Network.ttf') format('truetype');
+}
+
+.header-title {
+    font-family: 'gba-mmbn';
+    margin-bottom: 2%;
+    width: 50%; 
+    text-align: center; 
+    font-size: 24px; 
+    line-height: 1.6;
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
+
+/*Mobile styling*/
+@media (max-width: 600px) {
+    .header-title {
+        font-size: 18px; 
+        line-height: 1.5; 
+    }
+
+    img {
+        width: 30%;
+    }
+}

@@ -1,0 +1,11 @@
+.difficulty-buttons-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.difficulty-button{
+    width: 20%;
+    background-color: blue;
+    color: aquamarine;
+    border: solid black 2px;
+}

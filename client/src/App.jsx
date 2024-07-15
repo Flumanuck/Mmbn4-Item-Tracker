@@ -4,6 +4,7 @@ import DifficultyButtons from './components/DifficultyButtons.jsx';
 import ItemList from './components/ItemList.jsx';
 import ResetButton from './components/ResetButton';
 import Modal from "./components/Modal";
+import Header from './components/Header.jsx';
 
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
@@ -88,7 +89,8 @@ function App() {
 
   return (
     <div>
-      <h1>MMBN4 Mystery Data Tracker</h1>
+      <Header/>
+      {/* <div></div><img src='/red_sun_logo.png'></img><h1>MMBN4 Mystery Data Tracker</h1><img src='/blue_moon_logo.png'></img> */}
       <Modal show={isModalOpen} onClose={handleCloseModal} onSuccess={handleLoginSuccess} />
       <DifficultyButtons setDifficulty={setDifficulty} />   
       <ItemList items={items} handleUpdateItemStatus={handleUpdateItemStatus} />
