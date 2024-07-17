@@ -5,6 +5,7 @@ import ItemList from './components/ItemList.jsx';
 import ResetButton from './components/ResetButton';
 import Modal from "./components/Modal";
 import Header from './components/Header.jsx';
+import "./App.css"
 
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
