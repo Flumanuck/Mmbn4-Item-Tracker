@@ -93,7 +93,7 @@ function App() {
       <Header/>
       {/* <div></div><img src='/red_sun_logo.png'></img><h1>MMBN4 Mystery Data Tracker</h1><img src='/blue_moon_logo.png'></img> */}
       <Modal show={isModalOpen} onClose={handleCloseModal} onSuccess={handleLoginSuccess} />
-      <DifficultyButtons setDifficulty={setDifficulty} />   
+      <DifficultyButtons setDifficulty={setDifficulty} difficulty={difficulty}/>   
       <ItemList items={items} handleUpdateItemStatus={handleUpdateItemStatus} />
       <ResetButton handleResetItems={handleResetItems} />
     </div>

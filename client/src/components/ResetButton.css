@@ -6,5 +6,12 @@
     cursor: pointer;
     background-color: blue;
     color: aquamarine;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
   }
+
+.reset-button:hover{
+    background-color: darkblue; 
+    color: white; 
+}
+
   

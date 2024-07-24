@@ -1,7 +1,7 @@
 .row {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
+    align-items: center; 
     padding: 10px;
     box-sizing: border-box;
     width: 100%;
@@ -15,25 +15,31 @@
 .header-title {
     font-family: 'gba-mmbn';
     margin-bottom: 2%;
-    width: 50%; 
-    text-align: center; 
-    font-size: 24px; 
+    text-align: center;
+    font-size: 24px;
     line-height: 1.6;
+    color: white;
+}
+
+.header-title span{
+    background-color: rgba(54, 76, 240, 0.5); /* Simulates highlighting */
 }
 
 img {
-    width: 25%;
+    width: 20%;
     height: auto;
+    margin: 0 10px;
 }
 
-/*Mobile styling*/
+/* Mobile styling */
 @media (max-width: 600px) {
     .header-title {
-        font-size: 18px; 
-        line-height: 1.5; 
+        font-size: 18px;
+        line-height: 1.5;
     }
 
     img {
         width: 30%;
+        height: auto;
     }
 }
