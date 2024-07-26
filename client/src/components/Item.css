@@ -1,0 +1,36 @@
+.item {
+    background-color: white; /* Must stay white to fit with gif */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 120px; 
+    height: 120px; 
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer; /* Change cursor to pointer when hovered over */
+    box-sizing: border-box;
+}
+
+.item.checked {
+    background-color: gray; /* Change background if checked */
+}
+
+.item-icon {
+    height: auto; 
+    margin-bottom: 5px; 
+}
+
+.item-icon.invisible {
+    display: none; 
+}
+
+.item p {
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0; /* Remove default margin */
+    text-align: center; 
+    width: 100%;
+}

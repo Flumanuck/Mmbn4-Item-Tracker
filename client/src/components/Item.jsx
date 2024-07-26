@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Item.css"
 
 function Item({ item, handleUpdateItemStatus }){
   const handleClick = () => {
@@ -15,7 +16,7 @@ function Item({ item, handleUpdateItemStatus }){
         alt={item.type}
         className= {`item-icon ${item.is_checked ? "invisible" : ''}`}
       />
-      {item.name}
+      <p>{item.name}</p>
     </div>
   );
 };

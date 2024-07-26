@@ -1,5 +1,6 @@
 import React from 'react';
 import AreaPanel from './AreaPanel';
+import "./ItemList.css"
 
 function ItemList({ items, handleUpdateItemStatus }){
   const groupedItems = items.reduce((acc, item) => {
@@ -11,7 +12,7 @@ function ItemList({ items, handleUpdateItemStatus }){
   }, {});
 
   return (
-    <div>
+    <div className='item-list'>
       {Object.keys(groupedItems).map(areaName => (
         <AreaPanel
           key={areaName}
