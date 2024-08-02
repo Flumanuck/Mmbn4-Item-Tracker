@@ -5,6 +5,7 @@ import ItemList from './components/ItemList.jsx';
 import ResetButton from './components/ResetButton';
 import Modal from "./components/Modal";
 import Header from './components/Header.jsx';
+import LogoutButton from './components/LogoutButton.jsx';
 import refreshToken from './refreshToken'; // Import the refreshToken function
 import "./App.css"
 
@@ -45,6 +46,8 @@ function App() {
   const handleTokenRefresh = async () => {
     await refreshToken();
   };
+
+  
 
   const handleFetchItems = async () => {
     const token = localStorage.getItem('token');
@@ -108,6 +111,15 @@ function App() {
     setIsModalOpen(false);
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('userId');
+    setIsLoggedIn(false);
+    setUserId(null);
+    setItems([]);
+    setIsModalOpen(true);
+  };
+
   // Returned Components
 
   return (
@@ -116,8 +128,11 @@ function App() {
       <Modal show={isModalOpen} onClose={handleCloseModal} onSuccess={handleLoginSuccess} />
       <DifficultyButtons setDifficulty={setDifficulty} difficulty={difficulty}/>   
       <ItemList items={items} handleUpdateItemStatus={handleUpdateItemStatus} />
-      <ResetButton handleResetItems={handleResetItems} />
-    </div>
+      <div className='row'>
+        <ResetButton handleResetItems={handleResetItems} />
+        <LogoutButton handleLogout={handleLogout}/>
+      </div>
+  </div>
   );
 }
 
