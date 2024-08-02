@@ -11,13 +11,14 @@ import "./App.css"
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 function App() {
+  //Use States
   const [difficulty, setDifficulty] = useState('Normal');
   const [items, setItems] = useState([]); 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [userId, setUserId] = useState(null);
 
-  // Check local storage for token and userId on page load
+  //Use Effects
   useEffect(() => {
     const token = localStorage.getItem('token');
     const storedUserId = localStorage.getItem('userId');
@@ -39,6 +40,8 @@ function App() {
     }
   }, [isLoggedIn, difficulty]);
 
+  //Handler Functions
+
   const handleTokenRefresh = async () => {
     await refreshToken();
   };
@@ -58,7 +61,7 @@ function App() {
       setUserId(storedUserId);
     } catch (error) {
       console.error('Error fetching items:', error);
-      setItems([]); // making sure items is an array
+      setItems([]); // Making sure items is an array
     }
   };
 
@@ -104,6 +107,8 @@ function App() {
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
+
+  // Returned Components
 
   return (
     <div>
