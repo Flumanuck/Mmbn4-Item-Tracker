@@ -1,4 +1,4 @@
-.reset-button {
+.button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
@@ -7,9 +7,10 @@
     background-color: blue;
     color: aquamarine;
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    border: solid black 2px;
   }
 
-.reset-button:hover{
+.button:hover{
     background-color: darkblue; 
     color: white; 
 }
