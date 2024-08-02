@@ -1,4 +1,5 @@
-# MMBN4 Item Tracker
+# MMBN4 Mystery Data Tracker
+
 
 ## Table of Contents
 * [Description](#description)
