@@ -5,27 +5,44 @@ import ItemList from './components/ItemList.jsx';
 import ResetButton from './components/ResetButton';
 import Modal from "./components/Modal";
 import Header from './components/Header.jsx';
+import refreshToken from './refreshToken'; // Import the refreshToken function
 import "./App.css"
-
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 function App() {
-  // Use States
   const [difficulty, setDifficulty] = useState('Normal');
   const [items, setItems] = useState([]); 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [userId, setUserId] = useState(null);
 
-  // Use Effects
+  // Check local storage for token and userId on page load
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+    const storedUserId = localStorage.getItem('userId');
+    if (token && storedUserId) {
+      setUserId(storedUserId);
+      setIsLoggedIn(true);
+      setIsModalOpen(false);
+    }
+  }, []);
+
+  // Setup interval to refresh token every 14 minutes
   useEffect(() => {
     if (isLoggedIn) {
       handleFetchItems();
+      const interval = setInterval(() => {
+        handleTokenRefresh();
+      }, 14 * 60 * 1000); // Refresh token every 14 minutes
+      return () => clearInterval(interval); // Cleanup interval on component unmount
     }
   }, [isLoggedIn, difficulty]);
 
-  // Handler functions
+  const handleTokenRefresh = async () => {
+    await refreshToken();
+  };
+
   const handleFetchItems = async () => {
     const token = localStorage.getItem('token');
     const storedUserId = localStorage.getItem('userId');
@@ -33,8 +50,8 @@ function App() {
     try {
       const response = await axios.get(`${BASE_URL}/api/items/${storedUserId}/${difficulty}`, {
         headers: {
-          'Authorization': `Bearer ${token}`,
-        },
+          Authorization: `Bearer ${token}`
+        }
       });
       const data = response.data;
       setItems(Array.isArray(data) ? data : []);
@@ -51,8 +68,8 @@ function App() {
     try {
       await axios.put(`${BASE_URL}/api/items/${userId}/${itemId}`, { is_checked: isChecked }, {
         headers: {
-          'Authorization': `Bearer ${token}`,
-        },
+          Authorization: `Bearer ${token}`
+        }
       });
       handleFetchItems();
     } catch (error) {
@@ -66,8 +83,8 @@ function App() {
     try {
       await axios.put(`${BASE_URL}/api/items/reset/${userId}`, {}, {
         headers: {
-          'Authorization': `Bearer ${token}`,
-        },
+          Authorization: `Bearer ${token}`
+        }
       });
       handleFetchItems();
     } catch (error) {
@@ -91,7 +108,6 @@ function App() {
   return (
     <div>
       <Header/>
-      {/* <div></div><img src='/red_sun_logo.png'></img><h1>MMBN4 Mystery Data Tracker</h1><img src='/blue_moon_logo.png'></img> */}
       <Modal show={isModalOpen} onClose={handleCloseModal} onSuccess={handleLoginSuccess} />
       <DifficultyButtons setDifficulty={setDifficulty} difficulty={difficulty}/>   
       <ItemList items={items} handleUpdateItemStatus={handleUpdateItemStatus} />
