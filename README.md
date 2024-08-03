@@ -1,5 +1,6 @@
 # MMBN4 Mystery Data Tracker
 
+
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)

@@ -4,7 +4,10 @@ import DifficultyButtons from './components/DifficultyButtons.jsx';
 import ItemList from './components/ItemList.jsx';
 import ResetButton from './components/ResetButton';
 import Modal from "./components/Modal";
-
+import Header from './components/Header.jsx';
+import LogoutButton from './components/LogoutButton.jsx';
+import refreshToken from './refreshToken'; // Import the refreshToken function
+import "./App.css"
 
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
@@ -18,12 +21,34 @@ function App() {
 
   // Use Effects
   useEffect(() => {
+    const token = localStorage.getItem('token');
+    const storedUserId = localStorage.getItem('userId');
+    if (token && storedUserId) {
+      setUserId(storedUserId);
+      setIsLoggedIn(true);
+      setIsModalOpen(false);
+    }
+  }, []);
+
+  // Setup interval to refresh token every 15 minutes
+  useEffect(() => {
     if (isLoggedIn) {
       handleFetchItems();
+      const interval = setInterval(() => {
+        handleTokenRefresh();
+      }, 15 * 60 * 1000); // Refresh token every 15 minutes
+      return () => clearInterval(interval); // Cleanup interval on component unmount
     }
   }, [isLoggedIn, difficulty]);
 
-  // Handler functions
+  // Handler Functions
+
+  const handleTokenRefresh = async () => {
+    await refreshToken();
+  };
+
+  
+
   const handleFetchItems = async () => {
     const token = localStorage.getItem('token');
     const storedUserId = localStorage.getItem('userId');
@@ -31,15 +56,15 @@ function App() {
     try {
       const response = await axios.get(`${BASE_URL}/api/items/${storedUserId}/${difficulty}`, {
         headers: {
-          'Authorization': `Bearer ${token}`,
-        },
+          Authorization: `Bearer ${token}`
+        }
       });
       const data = response.data;
       setItems(Array.isArray(data) ? data : []);
       setUserId(storedUserId);
     } catch (error) {
       console.error('Error fetching items:', error);
-      setItems([]); // making sure items is an array
+      setItems([]); // Making sure items is an array
     }
   };
 
@@ -49,8 +74,8 @@ function App() {
     try {
       await axios.put(`${BASE_URL}/api/items/${userId}/${itemId}`, { is_checked: isChecked }, {
         headers: {
-          'Authorization': `Bearer ${token}`,
-        },
+          Authorization: `Bearer ${token}`
+        }
       });
       handleFetchItems();
     } catch (error) {
@@ -64,8 +89,8 @@ function App() {
     try {
       await axios.put(`${BASE_URL}/api/items/reset/${userId}`, {}, {
         headers: {
-          'Authorization': `Bearer ${token}`,
-        },
+          Authorization: `Bearer ${token}`
+        }
       });
       handleFetchItems();
     } catch (error) {
@@ -86,14 +111,28 @@ function App() {
     setIsModalOpen(false);
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('userId');
+    setIsLoggedIn(false);
+    setUserId(null);
+    setItems([]);
+    setIsModalOpen(true);
+  };
+
+  // Returned Components
+
   return (
     <div>
-      <h1>MMBN4 Mystery Data Tracker</h1>
+      <Header/>
       <Modal show={isModalOpen} onClose={handleCloseModal} onSuccess={handleLoginSuccess} />
-      <DifficultyButtons setDifficulty={setDifficulty} />   
+      <DifficultyButtons setDifficulty={setDifficulty} difficulty={difficulty}/>   
       <ItemList items={items} handleUpdateItemStatus={handleUpdateItemStatus} />
-      <ResetButton handleResetItems={handleResetItems} />
-    </div>
+      <div className='row'>
+        <ResetButton handleResetItems={handleResetItems} />
+        <LogoutButton handleLogout={handleLogout}/>
+      </div>
+  </div>
   );
 }
 
