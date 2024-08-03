@@ -30,13 +30,13 @@ function App() {
     }
   }, []);
 
-  // Setup interval to refresh token every 14 minutes
+  // Setup interval to refresh token every 15 minutes
   useEffect(() => {
     if (isLoggedIn) {
       handleFetchItems();
       const interval = setInterval(() => {
         handleTokenRefresh();
-      }, 14 * 60 * 1000); // Refresh token every 14 minutes
+      }, 15 * 60 * 1000); // Refresh token every 15 minutes
       return () => clearInterval(interval); // Cleanup interval on component unmount
     }
   }, [isLoggedIn, difficulty]);
