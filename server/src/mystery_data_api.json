@@ -22,7 +22,7 @@
     },
     "Town_Area_3": {
       "BMD": ["Recov30 R"],
-      "PMD": null
+      "PMD": ["CustSwrd B"]
     },
     "Town_Area_4": {
       "BMD": null,
@@ -89,7 +89,7 @@
       "PMD": null
     },
     "ELTowComp1": {
-      "BMD": ["Spearder M", "RegUp2", "700z"],
+      "BMD": ["Spreader M", "RegUp2", "700z"],
       "PMD": null
     },
     "ELTowComp2": {
@@ -554,7 +554,7 @@
     },
     "Undernet_Area_6": {
       "BMD": ["2400z", "BugFrag"],
-      "PMD": null
+      "PMD": ["HPMemory"]
     },
     "Black_Earth_Area_1": {
       "BMD": ["HPMemory", "LifeAura D"],
