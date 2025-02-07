@@ -88,43 +88,43 @@
       "BMD": null,
       "PMD": null
     },
-    "ELTowComp1": {
+    "Elec_Tower_Comp_1": {
       "BMD": ["Spreader M", "RegUp2", "700z"],
       "PMD": null
     },
-    "ELTowComp2": {
-      "BMD": ["LongSwrd S", "HPMemory", "BugFrag(1)"],
+    "Elec_Tower_Comp_2": {
+      "BMD": ["LongSwrd S", "HPMemory", "BugFrag"],
       "PMD": null
     },
-    "Toy_Robo_1": {
+    "Toy_Robo_Comp_1": {
       "BMD": ["RegUp1", "HP+50", "1400z"],
       "PMD": null
     },
-    "Toy_Robo_2": {
+    "Toy_Robo_Comp_2": {
       "BMD": ["RockCube *", "Vulcan2 B", "HPMemory"],
       "PMD": null
     },
-    "Toy_Robo_3": {
+    "Toy_Robo_Comp_3": {
       "BMD": ["Charge+1", "RegUp2"],
       "PMD": null
     },
-    "Toy_Robo_4": {
+    "Toy_Robo_Comp_4": {
       "BMD": ["Recov80 J", "HPMemory"],
       "PMD": null
     },
-    "Meteor_Area_1": {
+    "Meteor_Comp_1": {
       "BMD": ["Geddon1 W", "Hi-Cannon D", "HPMemory"],
       "PMD": null
     },
-    "Meteor_Area_2": {
+    "Meteor_Comp_2": {
       "BMD": ["WideBlde K", "RegUp3", "1800z"],
       "PMD": null
     },
-    "Meteor_Area_3": {
+    "Meteor_Comp_3": {
       "BMD": ["Counter2 L", "HP+100", "BugFrag"],
       "PMD": null
     },
-    "Meteor_Area_4": {
+    "Meteor_Comp_4": {
       "BMD": ["Recov120 F", "VarSwrd V", "FullEnerg", "Attack+1"],
       "PMD": null
     },
@@ -140,12 +140,12 @@
       "BMD": ["Counter1 T"],
       "PMD": null
     },
-    "Teddy_Bear": {
-      "BMD": ["MiniBomb*"],
+    "Teddy_Bear (Roll Scenario)": {
+      "BMD": ["MiniBomb *"],
       "PMD": null
     },
     "Jomon_Stereo": {
-      "BMD": ["PanlGrab*", "RegUp1"],
+      "BMD": ["PanlGrab *", "RegUp1"],
       "PMD": null
     },
     "Jomon_Monitor": {
@@ -168,7 +168,7 @@
       "BMD": ["Fish"],
       "PMD": null
     },
-    "CyberTop": {
+    "CyberTop (Topman Scenario)": {
       "BMD": ["1600z"],
       "PMD": null
     },
@@ -204,7 +204,7 @@
       "BMD": ["SpinWhite"],
       "PMD": null
     },
-    "Buddha_Statue": {
+    "Buddha_Statue (JunkMan Scenario)": {
       "BMD": ["2000z"],
       "PMD": null
     },
@@ -212,23 +212,39 @@
       "BMD": ["SubMem"],
       "PMD": null
     },
-    "Lion_Statue": {
+    "Lion_Statue (KendoMan Scenario)": {
       "BMD": ["RegUp2"],
       "PMD": null
     },
-    "Antenna_1": {
+    "WaterGod_Comp 1-8, 10-11, 13-15 (Paulie + Jammer Scenario)":{
+      "BMD": ["100z"],
+      "PMD": null
+    },
+    "WaterGod_Comp 9 (Paulie + Jammer Scenario)":{
+      "BMD": ["FullEnrg"],
+      "PMD": null
+    },
+    "WaterGod_Comp 12 (Paulie + Jammer Scenario)":{
+      "BMD": ["FullCust *"],
+      "PMD": null
+    },
+    "WaterGod_Comp 16 (Paulie + Jammer Scenario)":{
+      "BMD": ["10000z"],
+      "PMD": null
+    },
+    "Antenna_1 (ColdMan Scenario)": {
       "BMD": ["RegUp1"],
       "PMD": null
     },
-    "Antenna_2": {
+    "Antenna_2 (ColdMan Scenario)": {
       "BMD": ["HPMemory"],
       "PMD": null
     },
-    "Antenna_3": {
+    "Antenna_3 (ColdMan Scenario)": {
       "BMD": ["BugBomb G"],
       "PMD": null
     },
-    "Antenna_4": {
+    "Antenna_4 (ColdMan Scenario)": {
       "BMD": ["Battery"],
       "PMD": null
     },
@@ -267,12 +283,12 @@
       "PMD": ["AntiAqua D"]
     },
     "Park_Area_1": {
-      "BMD": ["RegUp1", "HPMemory"],
+      "BMD": ["RegUp2", "HPMemory"],
       "PMD": null
     },
     "Park_Area_2": {
       "BMD": ["BugFrag"],
-      "PMD": ["BugFrag 5"]
+      "PMD": ["5 BugFrags"]
     },
     "Park_Area_3": {
       "BMD": ["4000z", "Charge+1"],
@@ -326,44 +342,44 @@
       "BMD": null,
       "PMD": null
     },
-    "ELTowComp1": {
+    "ElecTowerComp1": {
       "BMD": ["BugFrag", "MegEnBom D", "RegUp1"],
       "PMD": null
     },
-    "ELTowComp2": {
+    "ElecTowerComp2": {
       "BMD": ["2300z", "WideBlde C", "HPMemory"],
       "PMD": null
     },
-    "Toy_Robo_1": {
+    "Toy_Robo_Comp_1": {
       "BMD": ["3200z", "RegUp1", "Counter3 V"],
       "PMD": null
     },
-    "Toy_Robo_2": {
+    "Toy_Robo_Comp_2": {
       "BMD": ["1500z", "BugFrag", "Recov150 C"],
       "PMD": null
     },
-    "Toy_Robo_3": {
+    "Toy_Robo_Comp_3": {
       "BMD": ["HPMemory", "Attack+1"],
       "PMD": null
     },
-    "Toy_Robo_4": {
+    "Toy_Robo_Comp_4": {
       "BMD": ["RegUp2", "Vulcan3 W"],
       "PMD": null
     },
-    "Meteor_Area_1": {
+    "Meteor_Comp_1": {
       "BMD": ["1800z", "Recov200 M", "SpinRed"],
       "PMD": null
     },
-    "Meteor_Area_2": {
+    "Meteor_Comp_2": {
       "BMD": ["RegUp1", "BugFrag", "NrthWind E"],
       "PMD": null
     },
-    "Meteor_Area_3": {
+    "Meteor_Comp_3": {
       "BMD": ["HPMemory", "3000z", "M-Cannon E"],
       "PMD": null
     },
-    "Meteor_Area_4": {
-      "BMD": ["BugFrag", "HP+200", "FullEnerg", "RegUp1"],
+    "Meteor_Comp_4": {
+      "BMD": ["BugFrag", "HP+200", "FullEnrg", "RegUp1"],
       "PMD": null
     },
     "Microwave": {
@@ -378,7 +394,7 @@
       "BMD": ["1000z"],
       "PMD": null
     },
-    "Teddy_Bear": {
+    "Teddy_Bear (Roll Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
@@ -406,7 +422,7 @@
       "BMD": ["Speed+1"],
       "PMD": null
     },
-    "CyberTop": {
+    "CyberTop (Topman Scenario)": {
       "BMD": ["2000z"],
       "PMD": null
     },
@@ -442,7 +458,7 @@
       "BMD": ["HPMemory"],
       "PMD": null
     },
-    "Buddha_Statue": {
+    "Buddha_Statue (JunkMan Scenario)": {
       "BMD": ["2000z"],
       "PMD": null
     },
@@ -450,23 +466,39 @@
       "BMD": ["LocEnemy"],
       "PMD": null
     },
-    "Lion_Statue": {
+    "Lion_Statue (KendoMan Scenario)": {
       "BMD": ["SneakRun"],
       "PMD": null
     },
-    "Antenna_1": {
+    "WaterGod_Comp 1-8, 10-11, 13-15 (Paulie + Jammer Scenario)":{
+      "BMD": ["100z"],
+      "PMD": null
+    },
+    "WaterGod_Comp 9 (Paulie + Jammer Scenario)":{
+      "BMD": ["FullEnrg"],
+      "PMD": null
+    },
+    "WaterGod_Comp 12 (Paulie + Jammer Scenario)":{
+      "BMD": ["10000z"],
+      "PMD": null
+    },
+    "WaterGod_Comp 16 (Paulie + Jammer Scenario)":{
+      "BMD": ["10000z"],
+      "PMD": null
+    },
+    "Antenna_1 (ColdMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
-    "Antenna_2": {
+    "Antenna_2 (ColdMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
-    "Antenna_3": {
+    "Antenna_3 (ColdMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
-    "Antenna_4": {
+    "Antenna_4 (ColdMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
@@ -485,12 +517,12 @@
       "PMD": ["AntiWood M"]
     },
     "ACDC_Area_3": {
-      "BMD": ["BugFrag", "MegEnBom D"],
+      "BMD": ["3 BugFrags", "MegEnBom D"],
       "PMD": null
     },
     "Town_Area_1": {
       "BMD": ["BugFrag"],
-      "PMD": ["BugFrag 3"]
+      "PMD": ["3 BugFrags"]
     },
     "Town_Area_2": {
       "BMD": ["CustSwrd S"],
@@ -549,58 +581,58 @@
       "PMD": null
     },
     "Undernet_Area_5": {
-      "BMD": ["2000z", "BugFrag"],
-      "PMD": null
+      "BMD": ["2000z", "3 BugFrags"],
+      "PMD": ["NeoVari N", "Sanctuary S"]
     },
     "Undernet_Area_6": {
       "BMD": ["2400z", "BugFrag"],
-      "PMD": ["HPMemory"]
+      "PMD": null
     },
     "Black_Earth_Area_1": {
       "BMD": ["HPMemory", "LifeAura D"],
       "PMD": null
     },
     "Black_Earth_Area_2": {
-      "BMD": ["3000z", "HPMemory"],
-      "PMD": null
+      "BMD": ["3000z", "HPMemory", "5 Bugfrags"],
+      "PMD": ["GigFldr1"]
     },
-    "ELTowComp1": {
+    "ElecTowerComp1": {
       "BMD": ["1400z", "Charge+1", "HPMemory"],
       "PMD": null
     },
-    "ELTowComp2": {
+    "ElecTowerComp2": {
       "BMD": ["BugFrag", "2900z", "RegUp2"],
       "PMD": null
     },
-    "Toy_Robo_1": {
+    "Toy_Robo_Comp_1": {
       "BMD": ["100z", "HPMemory", "M-Cannon G"],
       "PMD": null
     },
-    "Toy_Robo_2": {
-      "BMD": ["BugFrag", "Bugbomb B", "220Z"],
+    "Toy_Robo_Comp_2": {
+      "BMD": ["BugFrag", "Bugbomb B", "2200Z"],
       "PMD": null
     },
-    "Toy_Robo_3": {
+    "Toy_Robo_Comp_3": {
       "BMD": ["HP+300", "BugFrag"],
       "PMD": null
     },
-    "Toy_Robo_4": {
+    "Toy_Robo_Comp_4": {
       "BMD": ["RegUp1", "Vulcan3 W"],
       "PMD": null
     },
-    "Meteor_Area_1": {
+    "Meteor_Comp_1": {
       "BMD": ["2000z", "RegUp1", "BugFrag"],
       "PMD": null
     },
-    "Meteor_Area_2": {
+    "Meteor_Comp_2": {
       "BMD": ["3200z", "Bugfix *", "HPMemory"],
       "PMD": null
     },
-    "Meteor_Area_3": {
+    "Meteor_Comp_3": {
       "BMD": ["BugFrag", "LongBlde R", "2500z"],
       "PMD": null
     },
-    "Meteor_Area_4": {
+    "Meteor_Comp_4": {
       "BMD": ["WindRack *", "1700z", "FullEnerg", "BugFrag"],
       "PMD": null
     },
@@ -616,7 +648,7 @@
       "BMD": ["Untrap"],
       "PMD": null
     },
-    "Teddy_Bear": {
+    "Teddy_Bear (Roll Scenario)": {
       "BMD": ["800z"],
       "PMD": null
     },
@@ -644,7 +676,7 @@
       "BMD": ["BugFrag"],
       "PMD": null
     },
-    "CyberTop": {
+    "CyberTop (TopMan Scenario)": {
       "BMD": ["2400z"],
       "PMD": null
     },
@@ -680,7 +712,7 @@
       "BMD": ["2000z"],
       "PMD": null
     },
-    "Buddha_Statue": {
+    "Buddha_Statue (JunkMan Scenario)": {
       "BMD": ["2000z"],
       "PMD": null
     },
@@ -688,23 +720,39 @@
       "BMD": ["FullEnerg"],
       "PMD": null
     },
-    "Lion_Statue": {
+    "Lion_Statue (KendoMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
-    "Antenna_1": {
+    "WaterGod_Comp 1-8, 10-11, 13-15 (Paulie + Jammer Scenario)":{
+      "BMD": ["100z"],
+      "PMD": null
+    },
+    "WaterGod_Comp 9 (Paulie + Jammer Scenario)":{
+      "BMD": ["FullEnrg"],
+      "PMD": null
+    },
+    "WaterGod_Comp 12 (Paulie + Jammer Scenario)":{
+      "BMD": ["10000z"],
+      "PMD": null
+    },
+    "WaterGod_Comp 16 (Paulie + Jammer Scenario)":{
+      "BMD": ["10000z"],
+      "PMD": null
+    },
+    "Antenna_1 (ColdMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
-    "Antenna_2": {
+    "Antenna_2 (ColdMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
-    "Antenna_3": {
+    "Antenna_3 (ColdMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },
-    "Antenna_4": {
+    "Antenna_4 (ColdMan Scenario)": {
       "BMD": ["BugFrag"],
       "PMD": null
     },

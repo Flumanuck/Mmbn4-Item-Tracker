@@ -12,59 +12,77 @@ import "./App.css"
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 function App() {
-  // Use States
   const [difficulty, setDifficulty] = useState('Normal');
   const [items, setItems] = useState([]); 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [userId, setUserId] = useState(null);
 
-  // Use Effects
+  // **Refresh Token on Page Load**
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    const storedUserId = localStorage.getItem('userId');
-    if (token && storedUserId) {
-      setUserId(storedUserId);
-      setIsLoggedIn(true);
-      setIsModalOpen(false);
-    }
+    const handleInitialLoad = async () => {
+      const token = localStorage.getItem('token');
+      const storedUserId = localStorage.getItem('userId');
+      
+      if (token && storedUserId) {
+        try {
+          await handleTokenRefresh(); // Attempt to refresh token
+          setUserId(storedUserId);
+          setIsLoggedIn(true);
+          setIsModalOpen(false);
+          handleFetchItems(); // Fetch items only after successful token refresh
+        } catch (error) {
+          console.error('Error refreshing token on load:', error);
+          handleLogout(); // Log out if refresh fails
+        }
+      }
+    };
+
+    handleInitialLoad();
   }, []);
 
-  // Setup interval to refresh token every 15 minutes
+  // **Trigger Item Fetch When Difficulty Changes**
   useEffect(() => {
     if (isLoggedIn) {
       handleFetchItems();
+    }
+  }, [difficulty, isLoggedIn]);
+
+  // **Auto Refresh Token Every 15 Minutes**
+  useEffect(() => {
+    if (isLoggedIn) {
       const interval = setInterval(() => {
         handleTokenRefresh();
-      }, 15 * 60 * 1000); // Refresh token every 15 minutes
-      return () => clearInterval(interval); // Cleanup interval on component unmount
+      }, 15 * 60 * 1000); // Refresh every 15 minutes
+      return () => clearInterval(interval);
     }
-  }, [isLoggedIn, difficulty]);
+  }, [isLoggedIn]);
 
-  // Handler Functions
-
+  // **Functions**
   const handleTokenRefresh = async () => {
-    await refreshToken();
+    try {
+      await refreshToken(); 
+    } catch (error) {
+      console.error('Error refreshing token:', error);
+      throw error;
+    }
   };
-
-  
 
   const handleFetchItems = async () => {
     const token = localStorage.getItem('token');
     const storedUserId = localStorage.getItem('userId');
     if (!token || !storedUserId) return;
+
     try {
       const response = await axios.get(`${BASE_URL}/api/items/${storedUserId}/${difficulty}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
       });
-      const data = response.data;
-      setItems(Array.isArray(data) ? data : []);
-      setUserId(storedUserId);
+      setItems(response.data || []);
     } catch (error) {
       console.error('Error fetching items:', error);
-      setItems([]); // Making sure items is an array
+      setItems([]);
     }
   };
 
@@ -120,8 +138,7 @@ function App() {
     setIsModalOpen(true);
   };
 
-  // Returned Components
-
+  // **Render UI**
   return (
     <div>
       <Header/>
@@ -132,7 +149,7 @@ function App() {
         <ResetButton handleResetItems={handleResetItems} />
         <LogoutButton handleLogout={handleLogout}/>
       </div>
-  </div>
+    </div>
   );
 }
 
