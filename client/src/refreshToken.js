@@ -1,17 +1,29 @@
-import axios from 'axios';
-
 const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 const refreshToken = async () => {
   try {
-    const response = await axios.post(`${BASE_URL}/refresh-token`, {}, {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      console.log('No token found, user needs to log in');
+      return null;
+    }
+
+    const response = await fetch(`${BASE_URL}/refresh-token`, {
+      method: 'POST',
       headers: {
-        Authorization: `Bearer ${localStorage.getItem('token')}`
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`
       }
     });
-    const newToken = response.data.token;
-    localStorage.setItem('token', newToken); // Update token in local storage
-    return newToken;
+
+    const data = await response.json();
+    if (response.ok) {
+      localStorage.setItem('token', data.token);
+      return data.token;
+    } else {
+      console.error('Token refresh failed:', data.error);
+      return null;
+    }
   } catch (error) {
     console.error('Error refreshing token:', error);
     return null;
