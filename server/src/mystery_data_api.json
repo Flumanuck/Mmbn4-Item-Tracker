@@ -26,7 +26,7 @@
     },
     "Town_Area_4": {
       "BMD": null,
-      "PMD": null
+      "PMD": ["Windrack A"]
     },
     "Park_Area_1": {
       "BMD": ["AntiSwrd N", "RegUp2"],
@@ -39,10 +39,6 @@
     "Park_Area_3": {
       "BMD": ["MegFldr1", "BugFrag"],
       "PMD": ["ColorPt *"]
-    },
-    "Park_Area_4": {
-      "BMD": null,
-      "PMD": ["Windrack A"]
     },
     "Netopia_Area": {
       "BMD": ["SprArmor", "HPMemory"],
