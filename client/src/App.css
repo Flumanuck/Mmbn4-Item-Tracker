@@ -1,5 +1,6 @@
 body {
     background: url('/45.gif') no-repeat center center fixed;
     background-size: 300%;
+    min-height: 100dvh;
   }
 
