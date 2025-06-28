@@ -29,7 +29,7 @@
       "PMD": null
     },
     "Park_Area_1": {
-      "BMD": ["AntiSwrd N", "RegUp1"],
+      "BMD": ["AntiSwrd N", "RegUp2"],
       "PMD": null
     },
     "Park_Area_2": {
@@ -39,6 +39,10 @@
     "Park_Area_3": {
       "BMD": ["MegFldr1", "BugFrag"],
       "PMD": ["ColorPt *"]
+    },
+    "Park_Area_4": {
+      "BMD": null,
+      "PMD": ["Windrack A"]
     },
     "Netopia_Area": {
       "BMD": ["SprArmor", "HPMemory"],
@@ -173,7 +177,7 @@
       "PMD": null
     },
     "Den_Battle_Machine": {
-      "BMD": ["Spreader M"],
+      "BMD": ["Spreader N"],
       "PMD": null
     },
     "Ticket_Machine": {
