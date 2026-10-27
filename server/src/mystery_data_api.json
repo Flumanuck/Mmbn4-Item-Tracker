@@ -280,7 +280,7 @@
     },
     "Town_Area_4": {
       "BMD": null,
-      "PMD": ["AntiAqua D"]
+      "PMD": ["AntiWatr D"]
     },
     "Park_Area_1": {
       "BMD": ["RegUp2", "HPMemory"],
@@ -295,7 +295,7 @@
       "PMD": ["DblPoint *"]
     },
     "Netopia_Area": {
-      "BMD": ["BugFrag", "RegUp1"],
+      "BMD": ["2 BugFrags", "RegUp1"],
       "PMD": null
     },
     "Yumland_Area": {
@@ -331,7 +331,7 @@
       "PMD": null
     },
     "Undernet_Area_6": {
-      "BMD": ["BugFrag", "BlkBomb D"],
+      "BMD": ["2 BugFrags", "BlkBomb D"],
       "PMD": null
     },
     "Black_Earth_Area_1": {
@@ -342,11 +342,11 @@
       "BMD": null,
       "PMD": null
     },
-    "ElecTowerComp1": {
+    "Elec_Tower_Comp_1": {
       "BMD": ["BugFrag", "MegEnBom D", "RegUp1"],
       "PMD": null
     },
-    "ElecTowerComp2": {
+    "Elec_Tower_Comp_2": {
       "BMD": ["2300z", "WideBlde C", "HPMemory"],
       "PMD": null
     },
@@ -371,7 +371,7 @@
       "PMD": null
     },
     "Meteor_Comp_2": {
-      "BMD": ["RegUp1", "BugFrag", "NrthWind E"],
+      "BMD": ["RegUp1", "2 BugFrags", "NrthWind E"],
       "PMD": null
     },
     "Meteor_Comp_3": {
@@ -565,7 +565,7 @@
       "PMD": ["BlkBomb Z"]
     },
     "Undernet_Area_1": {
-      "BMD": ["1500z"],
+      "BMD": ["2 BugFrags"],
       "PMD": ["HP+400"]
     },
     "Undernet_Area_2": {
@@ -578,7 +578,7 @@
     },
     "Undernet_Area_4": {
       "BMD": ["BugFrag", "1400z"],
-      "PMD": null
+      "PMD": ["HPMemory"]
     },
     "Undernet_Area_5": {
       "BMD": ["2000z", "3 BugFrags"],
@@ -596,16 +596,16 @@
       "BMD": ["3000z", "HPMemory", "5 Bugfrags"],
       "PMD": ["GigFldr1"]
     },
-    "ElecTowerComp1": {
+    "Elec_Tower_Comp_1": {
       "BMD": ["1400z", "Charge+1", "HPMemory"],
       "PMD": null
     },
-    "ElecTowerComp2": {
+    "Elec_Tower_Comp_2": {
       "BMD": ["BugFrag", "2900z", "RegUp2"],
       "PMD": null
     },
     "Toy_Robo_Comp_1": {
-      "BMD": ["100z", "HPMemory", "M-Cannon G"],
+      "BMD": ["1000z", "HPMemory", "M-Cannon G"],
       "PMD": null
     },
     "Toy_Robo_Comp_2": {
@@ -621,7 +621,7 @@
       "PMD": null
     },
     "Meteor_Comp_1": {
-      "BMD": ["2000z", "RegUp1", "BugFrag"],
+      "BMD": ["1800z", "RegUp1", "BugFrag"],
       "PMD": null
     },
     "Meteor_Comp_2": {
@@ -669,7 +669,7 @@
       "PMD": null
     },
     "Card_Reader": {
-      "BMD": ["BugFrag"],
+      "BMD": ["2500z"],
       "PMD": null
     },
     "Sink_Filter": {
